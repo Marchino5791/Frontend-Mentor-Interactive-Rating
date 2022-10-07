@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d83f571423.js" crossorigin="anonymous"></script>
+
+  <!-- Title -->
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <main class="main-frame">
+
+    <div class="text-div">
+      <button class="decoration"><i class="fa-solid fa-star"></i></button>
+
+      <h1 class="question">How did we do?</h1>
+
+      <p class="info">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+    </div>
+
+    <form class="interactiveForm" method="post" onsubmit="return false">
+      <div class="button-div">
+        <button class="button" name="rate" onclick="btn_rate(1)" type="button" value="1" required>1</button>
+        <button class="button" name="rate" onclick="btn_rate(2)" type="button" value="2" required>2</button>
+        <button class="button" name="rate" onclick="btn_rate(3)" type="button" value="3" required>3</button>
+        <button class="button" name="rate" onclick="btn_rate(4)" type="button" value="4" required>4</button>
+        <button class="button" name="rate" onclick="btn_rate(5)" type="button" value="5" required>5</button>
+      </div>
+      <div class="submit-div">
+        <input type="submit" value="SUBMIT" class="btnSubmit" disabled onclick="go()">
+      </div>
+    </form>
+
+
+    <!-------- This part appear after submition ------->
+
+    <div class="imgAndRate-div hidden">
+      <img src="images/illustration-thank-you.svg" alt="illustration-thank-you" class="setImg">
+      <button class="selectedRate" type="button" name="button" disabled>You selected <span id="vote">0</span> out of 5</button>
+    </div>
+    <div class="thankYou-div hidden">
+      <h1 class="thank">Thank you!</h1>
+      <p class="info">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Marchino5791" target="_blank">Marco Paolino</a>.
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
