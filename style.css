@@ -175,6 +175,7 @@ body {
   .main-frame {
     width: 266px;
     height: 266px;
+    border-radius: 20px;
   }
 
   .setImg {
@@ -191,6 +192,7 @@ body {
   .main-frame {
     width: 200px;
     height: 200px;
+    border-radius: 10px;
   }
 
   .setImg {
