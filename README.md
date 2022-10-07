@@ -39,8 +39,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [Fonts](https://fonts.google.com/) - For fonts
-- [Icon](https://fontawesome.com/) - For Icon
+- [Google Fonts](https://fonts.google.com/) - For fonts
+- [Font Awesome](https://fontawesome.com/) - For Icon
 
 ### What I learned
 
@@ -80,8 +80,8 @@ Improve my JavaScript skills.
 
 ### Useful resources
 
-- [Exemple resource 1](https://www.youtube.com/watch?v=LC9LkDXkn6k) - This video helped me to activate one button at a time.
-- [Example resource 2](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-1) - This exercise help me with flexbox, particularly how to center vertically a div.
+- [Image Slider with Controls using HTML CSS & JavaScript by CodingNepal](https://www.youtube.com/watch?v=LC9LkDXkn6k) - This video helped me to activate one button at a time.
+- [Learn CSS Variables by Building a City Skyline by freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-1) - This exercise help me with flexbox, particularly how to center vertically a div.
 
 ## Author
 
