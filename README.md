@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marchino5791/Interactive-Rating](https://github.com/Marchino5791/Interactive-Rating)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://marchino5791.github.io/Interactive-Rating/](https://marchino5791.github.io/Interactive-Rating/)
 
 ## My process
 
