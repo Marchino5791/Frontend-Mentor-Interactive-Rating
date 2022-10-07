@@ -27,11 +27,9 @@
 
   <main class="main-frame">
 
-    <div class="text-div">
+    <div class="text-div" role="article">
       <button class="decoration"><i class="fa-solid fa-star"></i></button>
-
       <h1 class="question">How did we do?</h1>
-
       <p class="info">
         Please let us know how we did with your support request. All feedback is appreciated
         to help us improve our offering!
@@ -39,14 +37,14 @@
     </div>
 
     <form class="interactiveForm" method="post" onsubmit="return false">
-      <div class="button-div">
+      <div class="button-div" role="button">
         <button class="button" name="rate" onclick="btn_rate(1)" type="button" value="1" required>1</button>
         <button class="button" name="rate" onclick="btn_rate(2)" type="button" value="2" required>2</button>
         <button class="button" name="rate" onclick="btn_rate(3)" type="button" value="3" required>3</button>
         <button class="button" name="rate" onclick="btn_rate(4)" type="button" value="4" required>4</button>
         <button class="button" name="rate" onclick="btn_rate(5)" type="button" value="5" required>5</button>
       </div>
-      <div class="submit-div">
+      <div class="submit-div" role="button">
         <input type="submit" value="SUBMIT" class="btnSubmit" disabled onclick="go()">
       </div>
     </form>
@@ -54,11 +52,11 @@
 
     <!-------- This part appear after submition ------->
 
-    <div class="imgAndRate-div hidden">
+    <div class="imgAndRate-div hidden" role="figure">
       <img src="images/illustration-thank-you.svg" alt="illustration-thank-you" class="setImg">
       <button class="selectedRate" type="button" name="button" disabled>You selected <span id="vote">0</span> out of 5</button>
     </div>
-    <div class="thankYou-div hidden">
+    <div class="thankYou-div hidden" role="comment">
       <h1 class="thank">Thank you!</h1>
       <p class="info">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </div>
