@@ -38,11 +38,11 @@
 
     <form class="interactiveForm" method="post" onsubmit="return false">
       <div class="button-div" role="button">
-        <button class="button" name="rate" onclick="btn_rate(1)" type="button" value="1" required>1</button>
-        <button class="button" name="rate" onclick="btn_rate(2)" type="button" value="2" required>2</button>
-        <button class="button" name="rate" onclick="btn_rate(3)" type="button" value="3" required>3</button>
-        <button class="button" name="rate" onclick="btn_rate(4)" type="button" value="4" required>4</button>
-        <button class="button" name="rate" onclick="btn_rate(5)" type="button" value="5" required>5</button>
+        <input class="button" name="rate" onclick="btn_rate(1)" type="button" value="1">
+        <input class="button" name="rate" onclick="btn_rate(2)" type="button" value="2">
+        <input class="button" name="rate" onclick="btn_rate(3)" type="button" value="3">
+        <input class="button" name="rate" onclick="btn_rate(4)" type="button" value="4">
+        <input class="button" name="rate" onclick="btn_rate(5)" type="button" value="5">
       </div>
       <div class="submit-div" role="button">
         <input type="submit" value="SUBMIT" class="btnSubmit" disabled onclick="go()">
@@ -50,13 +50,13 @@
     </form>
 
 
-    <!-------- This part appear after submition ------->
+  <!-- This part appear after submition -->
 
     <div class="imgAndRate-div hidden" role="figure">
       <img src="images/illustration-thank-you.svg" alt="illustration-thank-you" class="setImg">
       <button class="selectedRate" type="button" name="button" disabled>You selected <span id="vote">0</span> out of 5</button>
     </div>
-    <div class="thankYou-div hidden" role="comment">
+    <div class="thankYou-div hidden" role="article">
       <h1 class="thank">Thank you!</h1>
       <p class="info">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </div>
@@ -68,7 +68,7 @@
     Coded by <a href="https://www.frontendmentor.io/profile/Marchino5791" target="_blank">Marco Paolino</a>.
   </footer>
 
-  <script src="index.js" charset="utf-8"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
