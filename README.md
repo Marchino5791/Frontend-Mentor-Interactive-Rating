@@ -44,28 +44,27 @@ Users should be able to:
 
 ### What I learned
 
-I practice with JavaScript and I have learned how to active one button at a time:
+1) I practice with JavaScript and I have learned how to active one button at a time:
 
-HTML:
-<div class="button-div">
-  <button class="button" name="rate" onclick="btn_rate(1)" type="button" value="1" required>1</button>
-  <button class="button" name="rate" onclick="btn_rate(2)" type="button" value="2" required>2</button>
-  <button class="button" name="rate" onclick="btn_rate(3)" type="button" value="3" required>3</button>
-  <button class="button" name="rate" onclick="btn_rate(4)" type="button" value="4" required>4</button>
-  <button class="button" name="rate" onclick="btn_rate(5)" type="button" value="5" required>5</button>
-</div>
+HTML: 
 
-JS:
-var indexValue = 1;
-function btn_rate(indexValue) {
-  var buttonRate = document.querySelectorAll(".button-div .button");
-  for (var i = 0; i < buttonRate.length; i++) {
-      buttonRate[i].classList.remove("buttonClicked");
-  }
-  buttonRate[indexValue-1].classList.add("buttonClicked");
-}
+attribute onclick="btn_rate(1)"
 
-In CSS, I have learned how to center verticaly a div:
+JS: <br />
+
+var indexValue = 1; <br />
+
+function btn_rate(indexValue) { <br />
+&emsp;  var buttonRate = document.querySelectorAll(".button-div .button"); <br />
+
+&emsp;  for (var i = 0; i < buttonRate.length; i++) { <br />
+&emsp;&emsp;      buttonRate[i].classList.remove("buttonClicked"); <br />
+&emsp;  } <br />
+
+&emsp;  buttonRate[indexValue-1].classList.add("buttonClicked"); <br />
+} <br />
+
+2) In CSS, I have learned how to center verticaly a div:
 
 body {
   height: 100vh;
