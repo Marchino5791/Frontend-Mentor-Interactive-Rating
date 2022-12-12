@@ -39,7 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- JavaScript
 - [Google Fonts](https://fonts.google.com/) - For fonts
 - [Font Awesome](https://fontawesome.com/) - For Icon
 
