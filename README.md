@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Marchino5791/Interactive-Rating](https://github.com/Marchino5791/Interactive-Rating)
-- Live Site URL: [https://marchino5791.github.io/Interactive-Rating/](https://marchino5791.github.io/Interactive-Rating/)
+- Solution URL: [https://github.com/Marchino5791/Frontend-Mentor-Interactive-Rating](https://github.com/Marchino5791/Frontend-Mentor-Interactive-Rating)
+- Live Site URL: [https://marchino5791.github.io/Frontend-Mentor-Interactive-Rating/](https://marchino5791.github.io/Frontend-Mentor-Interactive-Rating/)
 
 ## My process
 
